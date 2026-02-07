@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+.DS_Store
+.env
+venv/
+env/
+.anaconda/
+.vscode/
+.idea/
+
+# Generated Audio
+dragon_*.wav
+output.wav
+
+# Models (if downloaded locally)
+model_outputs/
+tts_models/
+
+# Logs
+*.log

@@ -1,0 +1,15 @@
+fastapi>=0.100.0
+uvicorn>=0.20.0
+python-multipart
+pydantic>=2.0.0
+# Core AI - Let pip resolve versions or install manually for specific hardware
+torch
+torchaudio
+# TTS often has strict dependencies (e.g. numpy==1.22.0), so we let it dictate them.
+TTS>=0.22.0
+pedalboard>=0.7.0
+transformers<5.0.0
+# Japnese support 
+cutlet
+mecab-python3
+unidic-lite
