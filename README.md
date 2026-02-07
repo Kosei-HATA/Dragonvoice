@@ -21,6 +21,21 @@ A powerful Text-to-Speech (TTS) API that generates dragon-like voices using Coqu
 
 ## Installation
 
+## Installation
+
+### Easy Method (Scripts)
+
+**macOS / Linux:**
+```bash
+chmod +x install_mac.sh
+./install_mac.sh
+```
+
+**Windows:**
+Double-click `install_windows.bat` or run it from Command Prompt.
+
+### Manual Method
+
 1.  **Clone the repository:**
     ```bash
     git clone https://github.com/yourusername/dragonvoice.git
@@ -29,8 +44,13 @@ A powerful Text-to-Speech (TTS) API that generates dragon-like voices using Coqu
 
 2.  **Create a virtual environment (Recommended):**
     ```bash
-    conda create -n dragonvoice python=3.10
-    conda activate dragonvoice
+    # macOS/Linux
+    python3 -m venv venv
+    source venv/bin/activate
+
+    # Windows
+    python -m venv venv
+    venv\Scripts\activate
     ```
 
 3.  **Install dependencies:**
